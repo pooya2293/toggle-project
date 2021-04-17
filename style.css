@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #fff;
+	background-color: #1b2031;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -94,24 +94,24 @@ input:checked::before {
 }
 
 /* rise up shadow */
-.container.on .threadEndShadow, .container.on
+.on .threadEndShadow, .on
 .threadShadow {
 	opacity: 1;/* with smothly */
 }
 
 /* give animation on to tanab va taheTanab */
-.container.on .threadEnd, .container.on .thread {
+.on .threadEnd, .on .thread {
 	animation: on 0.8s ease;
 }
 
 
-.container.on .threadEnd {
+.on .threadEnd {
 	background-color: #695dff;
 }
 
-.off  {
+/*.off  {
 	background-color: #1b2031;
-}
+}*/
 
 @keyframes on {
 	0% {transform: translateY(0px) }
