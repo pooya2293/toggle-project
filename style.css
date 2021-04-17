@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #1b2031;
+	background-color: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -64,7 +64,7 @@ input:checked::before {
 /* make shadow tanab */
 .threadShadow {
 	position: absolute;
-	width: 45%;
+	width: 49%;
 	height: 100%;
 	background-color: #675959;
 	right: 0; opacity: 0;
@@ -93,15 +93,24 @@ input:checked::before {
 	transition: all 0.4s ease;
 }
 
+/* rise up shadow */
 .container.on .threadEndShadow, .container.on
 .threadShadow {
-	opacity: 1;
+	opacity: 1;/* with smothly */
 }
+
+/* give animation on to tanab va taheTanab */
 .container.on .threadEnd, .container.on .thread {
 	animation: on 0.8s ease;
 }
+
+
 .container.on .threadEnd {
 	background-color: #695dff;
+}
+
+.off  {
+	background-color: #1b2031;
 }
 
 @keyframes on {
