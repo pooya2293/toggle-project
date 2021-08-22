@@ -16,6 +16,7 @@ threadEnd.addEventListener('click', () => {
 		switchBtn.checked = true;
 		container.classList.toggle('on');
 		body.classList.toggle('off');
+		
 	}
 })	
 
